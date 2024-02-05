@@ -1,0 +1,23 @@
+ul li a{
+    position: relative;
+    cursor: pointer;
+}
+ul li a:before{
+    position: absolute;
+    content: "";
+    background-color: white;
+    opacity: 50%;
+    height: 3px;
+    width: 0%;
+    bottom: -36px;
+    transition: .2s;
+    left: 50%;
+    transform: translate(-50%);
+}
+ul li a:hover::before{
+    width: 100%;
+}
+ul li a.active::before{
+    width: 100%;
+    opacity: 100%;
+}
