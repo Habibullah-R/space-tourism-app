@@ -11,7 +11,7 @@ const destinationOptions = (props) => {
   }
 
   return (
-    <div className='nav-text'>
+    <div className='nav-text destination-tab'>
       <ul className='uppercase flex items-center gap-5  tracking-[2.7px]'>
         <li>
             <a className={props.number === '1'?'active before:bottom-[-12px]':"before:bottom-[-12px]"} onClick={()=>toggleActive(1)}>Moon</a>
