@@ -1,0 +1,86 @@
+.slick-slider button, [type='button']{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+}
+.slick-arrow::before{
+    display: none;
+}
+.slick-dots{
+    position: absolute;
+    bottom: 0;
+}
+.slick-dots li button:before{
+    font-family: 'slick';
+    font-size: 13px;
+    line-height: 20px;
+    position: absolute;
+    top: -900%;
+    left: -2200%;
+    width: 10px;
+    height: 10px;
+    content: '';
+    opacity: .25;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-font-smoothing: antialiased
+}
+
+@media screen and (max-width:1115px) {
+    .slick-dots li button:before{
+        top: -750%;
+    }
+}
+
+@media screen and (max-width:1160px) {
+    .slick-dots li button:before{
+        left: -1500% ;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .slick-dots li button:before{
+        top: -630%;
+    }
+}
+
+@media screen and (max-width:811px) {
+    .slick-dots li button:before{
+        top: -630%;
+    }
+}
+@media screen and (max-width:767px) {
+    .slick-dots li button:before{
+        top: -3000%;
+    left: 0%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .slick-dots li button:before{
+        top: -2880%;
+    left: 0%;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .slick-dots li button:before{
+        top: -950%;
+    left: 0%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .slick-dots li button:before{
+        top: -1270%;
+    left: 0%;
+    }
+}
+
+
+@media screen and (max-width:390px) {
+    .slick-dots li button:before{
+        top: -1130%;
+    left: 0%;
+    }
+}

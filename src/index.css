@@ -95,6 +95,9 @@ p{
     .destination{
         height: 1024px;
     }
+    .crew{
+        height: 1024px;
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -150,6 +153,12 @@ p{
 
 }
 
+@media screen and (max-width:470px) {
+    .crew{
+        background-image: url('../crew/background-crew-mobile.jpg');
+        height:900px;
+    }
+}
 
 @media screen and (max-width:390px) {
     h1{
@@ -181,10 +190,6 @@ p{
     .destination{
         height:1024px;
         background: url('../destination/background-destination-mobile.jpg');
-    }
-    .crew{
-        background-image: url('../crew/background-crew-mobile.jpg');
-        height: 1024px;
     }
     .technology{
         background-image: url('../technology/background-technology-mobile.jpg');
